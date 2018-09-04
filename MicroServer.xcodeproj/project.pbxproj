@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4FD43B8F213EDA050079C121 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD43B8E213EDA050079C121 /* AppDelegate.swift */; };
+		4FD43B91213EDA050079C121 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD43B90213EDA050079C121 /* ViewController.swift */; };
+		4FD43B94213EDA050079C121 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FD43B92213EDA050079C121 /* Main.storyboard */; };
+		4FD43B97213EDA050079C121 /* MicroServer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4FD43B95213EDA050079C121 /* MicroServer.xcdatamodeld */; };
+		4FD43B99213EDA070079C121 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FD43B98213EDA070079C121 /* Assets.xcassets */; };
+		4FD43B9C213EDA070079C121 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FD43B9A213EDA070079C121 /* LaunchScreen.storyboard */; };
+		4FD43BA7213EDA070079C121 /* MicroServerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD43BA6213EDA070079C121 /* MicroServerTests.swift */; };
+		4FD43BB2213EDA070079C121 /* MicroServerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD43BB1213EDA070079C121 /* MicroServerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4FD43BA3213EDA070079C121 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4FD43B83213EDA050079C121 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FD43B8A213EDA050079C121;
+			remoteInfo = MicroServer;
+		};
+		4FD43BAE213EDA070079C121 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4FD43B83213EDA050079C121 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FD43B8A213EDA050079C121;
+			remoteInfo = MicroServer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4FD43B8B213EDA050079C121 /* MicroServer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MicroServer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FD43B8E213EDA050079C121 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4FD43B90213EDA050079C121 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4FD43B93213EDA050079C121 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4FD43B96213EDA050079C121 /* MicroServer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MicroServer.xcdatamodel; sourceTree = "<group>"; };
+		4FD43B98213EDA070079C121 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4FD43B9B213EDA070079C121 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4FD43B9D213EDA070079C121 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FD43BA2213EDA070079C121 /* MicroServerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MicroServerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FD43BA6213EDA070079C121 /* MicroServerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicroServerTests.swift; sourceTree = "<group>"; };
+		4FD43BA8213EDA070079C121 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FD43BAD213EDA070079C121 /* MicroServerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MicroServerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FD43BB1213EDA070079C121 /* MicroServerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicroServerUITests.swift; sourceTree = "<group>"; };
+		4FD43BB3213EDA070079C121 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4FD43B88213EDA050079C121 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FD43B9F213EDA070079C121 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FD43BAA213EDA070079C121 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4FD43B82213EDA050079C121 = {
+			isa = PBXGroup;
+			children = (
+				4FD43B8D213EDA050079C121 /* MicroServer */,
+				4FD43BA5213EDA070079C121 /* MicroServerTests */,
+				4FD43BB0213EDA070079C121 /* MicroServerUITests */,
+				4FD43B8C213EDA050079C121 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4FD43B8C213EDA050079C121 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4FD43B8B213EDA050079C121 /* MicroServer.app */,
+				4FD43BA2213EDA070079C121 /* MicroServerTests.xctest */,
+				4FD43BAD213EDA070079C121 /* MicroServerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4FD43B8D213EDA050079C121 /* MicroServer */ = {
+			isa = PBXGroup;
+			children = (
+				4FD43B8E213EDA050079C121 /* AppDelegate.swift */,
+				4FD43B90213EDA050079C121 /* ViewController.swift */,
+				4FD43B92213EDA050079C121 /* Main.storyboard */,
+				4FD43B98213EDA070079C121 /* Assets.xcassets */,
+				4FD43B9A213EDA070079C121 /* LaunchScreen.storyboard */,
+				4FD43B9D213EDA070079C121 /* Info.plist */,
+				4FD43B95213EDA050079C121 /* MicroServer.xcdatamodeld */,
+			);
+			path = MicroServer;
+			sourceTree = "<group>";
+		};
+		4FD43BA5213EDA070079C121 /* MicroServerTests */ = {
+			isa = PBXGroup;
+			children = (
+				4FD43BA6213EDA070079C121 /* MicroServerTests.swift */,
+				4FD43BA8213EDA070079C121 /* Info.plist */,
+			);
+			path = MicroServerTests;
+			sourceTree = "<group>";
+		};
+		4FD43BB0213EDA070079C121 /* MicroServerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4FD43BB1213EDA070079C121 /* MicroServerUITests.swift */,
+				4FD43BB3213EDA070079C121 /* Info.plist */,
+			);
+			path = MicroServerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4FD43B8A213EDA050079C121 /* MicroServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FD43BB6213EDA070079C121 /* Build configuration list for PBXNativeTarget "MicroServer" */;
+			buildPhases = (
+				4FD43B87213EDA050079C121 /* Sources */,
+				4FD43B88213EDA050079C121 /* Frameworks */,
+				4FD43B89213EDA050079C121 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MicroServer;
+			productName = MicroServer;
+			productReference = 4FD43B8B213EDA050079C121 /* MicroServer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4FD43BA1213EDA070079C121 /* MicroServerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FD43BB9213EDA070079C121 /* Build configuration list for PBXNativeTarget "MicroServerTests" */;
+			buildPhases = (
+				4FD43B9E213EDA070079C121 /* Sources */,
+				4FD43B9F213EDA070079C121 /* Frameworks */,
+				4FD43BA0213EDA070079C121 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FD43BA4213EDA070079C121 /* PBXTargetDependency */,
+			);
+			name = MicroServerTests;
+			productName = MicroServerTests;
+			productReference = 4FD43BA2213EDA070079C121 /* MicroServerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4FD43BAC213EDA070079C121 /* MicroServerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FD43BBC213EDA070079C121 /* Build configuration list for PBXNativeTarget "MicroServerUITests" */;
+			buildPhases = (
+				4FD43BA9213EDA070079C121 /* Sources */,
+				4FD43BAA213EDA070079C121 /* Frameworks */,
+				4FD43BAB213EDA070079C121 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FD43BAF213EDA070079C121 /* PBXTargetDependency */,
+			);
+			name = MicroServerUITests;
+			productName = MicroServerUITests;
+			productReference = 4FD43BAD213EDA070079C121 /* MicroServerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4FD43B83213EDA050079C121 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Nagy Daniel";
+				TargetAttributes = {
+					4FD43B8A213EDA050079C121 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					4FD43BA1213EDA070079C121 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 4FD43B8A213EDA050079C121;
+					};
+					4FD43BAC213EDA070079C121 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 4FD43B8A213EDA050079C121;
+					};
+				};
+			};
+			buildConfigurationList = 4FD43B86213EDA050079C121 /* Build configuration list for PBXProject "MicroServer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4FD43B82213EDA050079C121;
+			productRefGroup = 4FD43B8C213EDA050079C121 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4FD43B8A213EDA050079C121 /* MicroServer */,
+				4FD43BA1213EDA070079C121 /* MicroServerTests */,
+				4FD43BAC213EDA070079C121 /* MicroServerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4FD43B89213EDA050079C121 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FD43B9C213EDA070079C121 /* LaunchScreen.storyboard in Resources */,
+				4FD43B99213EDA070079C121 /* Assets.xcassets in Resources */,
+				4FD43B94213EDA050079C121 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FD43BA0213EDA070079C121 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FD43BAB213EDA070079C121 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4FD43B87213EDA050079C121 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FD43B91213EDA050079C121 /* ViewController.swift in Sources */,
+				4FD43B97213EDA050079C121 /* MicroServer.xcdatamodeld in Sources */,
+				4FD43B8F213EDA050079C121 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FD43B9E213EDA070079C121 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FD43BA7213EDA070079C121 /* MicroServerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FD43BA9213EDA070079C121 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FD43BB2213EDA070079C121 /* MicroServerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4FD43BA4213EDA070079C121 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4FD43B8A213EDA050079C121 /* MicroServer */;
+			targetProxy = 4FD43BA3213EDA070079C121 /* PBXContainerItemProxy */;
+		};
+		4FD43BAF213EDA070079C121 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4FD43B8A213EDA050079C121 /* MicroServer */;
+			targetProxy = 4FD43BAE213EDA070079C121 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4FD43B92213EDA050079C121 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FD43B93213EDA050079C121 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4FD43B9A213EDA070079C121 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FD43B9B213EDA070079C121 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4FD43BB4213EDA070079C121 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4FD43BB5213EDA070079C121 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4FD43BB7213EDA070079C121 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B6TB6WEL6Z;
+				INFOPLIST_FILE = MicroServer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Nagyd.MicroServer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4FD43BB8213EDA070079C121 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B6TB6WEL6Z;
+				INFOPLIST_FILE = MicroServer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Nagyd.MicroServer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4FD43BBA213EDA070079C121 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B6TB6WEL6Z;
+				INFOPLIST_FILE = MicroServerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Nagyd.MicroServerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MicroServer.app/MicroServer";
+			};
+			name = Debug;
+		};
+		4FD43BBB213EDA070079C121 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B6TB6WEL6Z;
+				INFOPLIST_FILE = MicroServerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Nagyd.MicroServerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MicroServer.app/MicroServer";
+			};
+			name = Release;
+		};
+		4FD43BBD213EDA070079C121 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B6TB6WEL6Z;
+				INFOPLIST_FILE = MicroServerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Nagyd.MicroServerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MicroServer;
+			};
+			name = Debug;
+		};
+		4FD43BBE213EDA070079C121 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B6TB6WEL6Z;
+				INFOPLIST_FILE = MicroServerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Nagyd.MicroServerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MicroServer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4FD43B86213EDA050079C121 /* Build configuration list for PBXProject "MicroServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FD43BB4213EDA070079C121 /* Debug */,
+				4FD43BB5213EDA070079C121 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FD43BB6213EDA070079C121 /* Build configuration list for PBXNativeTarget "MicroServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FD43BB7213EDA070079C121 /* Debug */,
+				4FD43BB8213EDA070079C121 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FD43BB9213EDA070079C121 /* Build configuration list for PBXNativeTarget "MicroServerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FD43BBA213EDA070079C121 /* Debug */,
+				4FD43BBB213EDA070079C121 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FD43BBC213EDA070079C121 /* Build configuration list for PBXNativeTarget "MicroServerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FD43BBD213EDA070079C121 /* Debug */,
+				4FD43BBE213EDA070079C121 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4FD43B95213EDA050079C121 /* MicroServer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4FD43B96213EDA050079C121 /* MicroServer.xcdatamodel */,
+			);
+			currentVersion = 4FD43B96213EDA050079C121 /* MicroServer.xcdatamodel */;
+			path = MicroServer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4FD43B83213EDA050079C121 /* Project object */;
+}
