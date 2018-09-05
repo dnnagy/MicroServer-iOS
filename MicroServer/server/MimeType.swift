@@ -133,7 +133,7 @@ extension NSURL {
 
 extension URL {
     public func mimeType() -> String {
-        return MimeType(ext: self.absoluteString)
+        return MimeType(ext: self.pathExtension)
     }
 }
 
