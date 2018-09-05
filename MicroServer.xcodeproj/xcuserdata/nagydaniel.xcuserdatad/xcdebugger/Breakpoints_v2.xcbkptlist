@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MicroServer/server/HttpServerIO.swift"
+            timestampString = "557841134.903905"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "100"
+            endingLineNumber = "100"
+            landmarkName = "start(_:forceIPv4:priority:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MicroServer/server/HttpServerIO.swift"
+            timestampString = "557841134.9046119"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "start(_:forceIPv4:priority:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "default argument 0 of MicroServer.HttpServerIO.start(Swift.UInt16, forceIPv4: Swift.Bool, priority: Dispatch.DispatchQoS.QoSClass) throws -&gt; ()"
+                  moduleName = "MicroServer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nagydaniel/Documents/Munka/asseco/MicroServer/MicroServer/server/HttpServerIO.swift"
+                  timestampString = "557840842.764726"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "default argument 1 of MicroServer.HttpServerIO.start(Swift.UInt16, forceIPv4: Swift.Bool, priority: Dispatch.DispatchQoS.QoSClass) throws -&gt; ()"
+                  moduleName = "MicroServer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nagydaniel/Documents/Munka/asseco/MicroServer/MicroServer/server/HttpServerIO.swift"
+                  timestampString = "557840842.767419"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "default argument 2 of MicroServer.HttpServerIO.start(Swift.UInt16, forceIPv4: Swift.Bool, priority: Dispatch.DispatchQoS.QoSClass) throws -&gt; ()"
+                  moduleName = "MicroServer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nagydaniel/Documents/Munka/asseco/MicroServer/MicroServer/server/HttpServerIO.swift"
+                  timestampString = "557840842.770674"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MicroServer.HttpServerIO.start(Swift.UInt16, forceIPv4: Swift.Bool, priority: Dispatch.DispatchQoS.QoSClass) throws -&gt; ()"
+                  moduleName = "MicroServer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nagydaniel/Documents/Munka/asseco/MicroServer/MicroServer/server/HttpServerIO.swift"
+                  timestampString = "557840842.772509"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "78"
+                  endingLineNumber = "78"
+                  offsetFromSymbolStart = "40">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MicroServer/server/HttpServerIO.swift"
+            timestampString = "557841134.9048491"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
+            landmarkName = "start(_:forceIPv4:priority:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MicroServer/server/HttpServerIO.swift"
+            timestampString = "557841134.905071"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
+            landmarkName = "start(_:forceIPv4:priority:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in MicroServer.HttpServerIO.start(Swift.UInt16, forceIPv4: Swift.Bool, priority: Dispatch.DispatchQoS.QoSClass) throws -&gt; ()"
+                  moduleName = "MicroServer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nagydaniel/Documents/Munka/asseco/MicroServer/MicroServer/server/HttpServerIO.swift"
+                  timestampString = "557841466.036993"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "88"
+                  endingLineNumber = "88"
+                  offsetFromSymbolStart = "404">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 () -&gt; () in MicroServer.HttpServerIO.start(Swift.UInt16, forceIPv4: Swift.Bool, priority: Dispatch.DispatchQoS.QoSClass) throws -&gt; ()"
+                  moduleName = "MicroServer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nagydaniel/Documents/Munka/asseco/MicroServer/MicroServer/server/HttpServerIO.swift"
+                  timestampString = "557841466.038587"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "88"
+                  endingLineNumber = "88"
+                  offsetFromSymbolStart = "24">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MicroServer/server/HttpServerIO.swift"
+            timestampString = "557841134.9052891"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
+            landmarkName = "start(_:forceIPv4:priority:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MicroServer/server/HttpServerIO.swift"
+            timestampString = "557841134.905502"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "90"
+            endingLineNumber = "90"
+            landmarkName = "start(_:forceIPv4:priority:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MicroServer/server/HttpServerIO.swift"
+            timestampString = "557841134.905713"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "89"
+            endingLineNumber = "89"
+            landmarkName = "start(_:forceIPv4:priority:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

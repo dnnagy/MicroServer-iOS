@@ -15,6 +15,12 @@
 		4FD43B9C213EDA070079C121 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FD43B9A213EDA070079C121 /* LaunchScreen.storyboard */; };
 		4FD43BA7213EDA070079C121 /* MicroServerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD43BA6213EDA070079C121 /* MicroServerTests.swift */; };
 		4FD43BB2213EDA070079C121 /* MicroServerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD43BB1213EDA070079C121 /* MicroServerUITests.swift */; };
+		4FD43BC1213EDA390079C121 /* Socket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD43BC0213EDA390079C121 /* Socket.swift */; };
+		4FD43BC3213EDA830079C121 /* Errno.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD43BC2213EDA830079C121 /* Errno.swift */; };
+		4FD43BC5213EDAC70079C121 /* HttpParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD43BC4213EDAC70079C121 /* HttpParser.swift */; };
+		4FD43BC7213EDB790079C121 /* HttpRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD43BC6213EDB790079C121 /* HttpRequest.swift */; };
+		4FD43BC9213EDBA90079C121 /* String+UTF8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD43BC8213EDBA90079C121 /* String+UTF8.swift */; };
+		4FD43BCB213EDC6B0079C121 /* HttpServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD43BCA213EDC6B0079C121 /* HttpServer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,12 @@
 		4FD43BAD213EDA070079C121 /* MicroServerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MicroServerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FD43BB1213EDA070079C121 /* MicroServerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicroServerUITests.swift; sourceTree = "<group>"; };
 		4FD43BB3213EDA070079C121 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FD43BC0213EDA390079C121 /* Socket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Socket.swift; sourceTree = "<group>"; };
+		4FD43BC2213EDA830079C121 /* Errno.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errno.swift; sourceTree = "<group>"; };
+		4FD43BC4213EDAC70079C121 /* HttpParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpParser.swift; sourceTree = "<group>"; };
+		4FD43BC6213EDB790079C121 /* HttpRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpRequest.swift; sourceTree = "<group>"; };
+		4FD43BC8213EDBA90079C121 /* String+UTF8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+UTF8.swift"; sourceTree = "<group>"; };
+		4FD43BCA213EDC6B0079C121 /* HttpServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpServer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +111,7 @@
 		4FD43B8D213EDA050079C121 /* MicroServer */ = {
 			isa = PBXGroup;
 			children = (
+				4FD43BBF213EDA1A0079C121 /* server */,
 				4FD43B8E213EDA050079C121 /* AppDelegate.swift */,
 				4FD43B90213EDA050079C121 /* ViewController.swift */,
 				4FD43B92213EDA050079C121 /* Main.storyboard */,
@@ -126,6 +139,19 @@
 				4FD43BB3213EDA070079C121 /* Info.plist */,
 			);
 			path = MicroServerUITests;
+			sourceTree = "<group>";
+		};
+		4FD43BBF213EDA1A0079C121 /* server */ = {
+			isa = PBXGroup;
+			children = (
+				4FD43BC0213EDA390079C121 /* Socket.swift */,
+				4FD43BC2213EDA830079C121 /* Errno.swift */,
+				4FD43BC4213EDAC70079C121 /* HttpParser.swift */,
+				4FD43BC6213EDB790079C121 /* HttpRequest.swift */,
+				4FD43BC8213EDBA90079C121 /* String+UTF8.swift */,
+				4FD43BCA213EDC6B0079C121 /* HttpServer.swift */,
+			);
+			path = server;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +285,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FD43BC3213EDA830079C121 /* Errno.swift in Sources */,
+				4FD43BC1213EDA390079C121 /* Socket.swift in Sources */,
 				4FD43B91213EDA050079C121 /* ViewController.swift in Sources */,
 				4FD43B97213EDA050079C121 /* MicroServer.xcdatamodeld in Sources */,
+				4FD43BC5213EDAC70079C121 /* HttpParser.swift in Sources */,
+				4FD43BC9213EDBA90079C121 /* String+UTF8.swift in Sources */,
+				4FD43BCB213EDC6B0079C121 /* HttpServer.swift in Sources */,
+				4FD43BC7213EDB790079C121 /* HttpRequest.swift in Sources */,
 				4FD43B8F213EDA050079C121 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
