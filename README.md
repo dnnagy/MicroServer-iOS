@@ -15,8 +15,7 @@ server.connectionHandler = { (req, socket) in
   req.debugInfo()
   
   do {
-     
-     // Return a HTTP/1.1 response
+     // Set response header
      var responseHeader = String()
                         
      responseHeader.append("HTTP/1.1 200 OK\r\n")
@@ -35,7 +34,60 @@ server.connectionHandler = { (req, socket) in
      // Close socket after You have sent everything
      socket.close()
                         
-} catch (let e) {
+  } catch (let e) {
      // Handle errors
+  }
 }
+
+try? server.start(8888, forceIPv4: true)
+```
+
+## Sending files
+
+```swift
+var server: HttpServer = HttpServer()
+
+server.connectionHandler = { (req, socket) in
+    
+    // First find file if exists
+    if !req.path.isEmpty {
+                
+          let documentsPathURL = try! FileManager.default.url(for: .documentDirectory, in: .userDomainMask,
+                                                               appropriateFor: nil, create: true)
+                                                               
+          let fileURL = documentsPathURL.appendingPathComponent(req.path)
+                
+          var isDir: ObjCBool = ObjCBool(true)
+          let exists = FileManager.default.fileExists(atPath: fileURL, isDirectory: &isDir)
+   
+          // Send if it is not a directory
+          if  exists && !isDir.boolValue {
+          
+            do {
+                // Set response header
+                var responseHeader = String()
+                        
+                responseHeader.append("HTTP/1.1 200 OK\r\n")
+                responseHeader.append("Server: iOS MicroServer")
+                responseHeader.append("Content-Type: \(fileURL.mimeType())")
+                responseHeader.append("\r\n")
+                responseHeader.append("\r\n")
+                        
+                // Send header
+                try socket.writeUTF8(responseHeader)
+                        
+                // Try to send file
+                try sendFileAndClose(fileURL.path, withSocket: socket)
+              } catch (let e) {
+                 // Handle error
+              }
+          } else {
+              print("File does not exist or is a directory ")
+          }
+   } else {
+       print("req.path is empty!")
+   }
+}
+
+try? server.start(8888, forceIPv4: true)
 ```
